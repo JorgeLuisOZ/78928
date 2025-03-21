@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar</title>
+</head>
+<body>
+    <h1>Editar Producto</h1>
+    <form action="/guardar" method="POST">
+        <input type="text" name="nombre" id="" value="{{producto['nombre']}}">
+        <input type="number" name="precio" id="" value="{{producto['precio']}}">
+        <input type="hidden" name="id" value="{{producto['id']}}">
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
