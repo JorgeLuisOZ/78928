@@ -16,3 +16,6 @@
 [submodule "springboot"]
 	path = springboot
 	url = https://github.com/JorgeLuisOZ/springboot.git
+[submodule "react"]
+	path = react
+	url = https://github.com/JorgeLuisOZ/react.git
