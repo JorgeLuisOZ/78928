@@ -19,3 +19,6 @@
 [submodule "react"]
 	path = react
 	url = https://github.com/JorgeLuisOZ/react.git
+[submodule "ruleta"]
+	path = ruleta
+	url = https://github.com/JorgeLuisOZ/ruleta.git
